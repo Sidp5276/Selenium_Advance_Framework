@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="VWO Complete Automation Suite">
+
+    <test thread-count="5" name="DDT Regression Tests">
+        <classes>
+            <class name="Testing.tests.DDT.TestVWOLogin_01_Normal_POM"/>
+
+            <class name="Testing.tests.DDT.TestVWOLogin_02_Prop_Improved_POM"/>
+
+            <class name="Testing.tests.DDT.TestVWOLogin_03_PF"/>
+        </classes>
+    </test>
+
+</suite>

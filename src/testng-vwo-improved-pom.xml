@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="VWO Login Automation Suite">
+
+    <test thread-count="5" name="Data Driven and POM Tests">
+        <classes>
+            <class name="Testing.tests.DDT.TestVWOLogin_02_Prop_Improved_POM"/>
+        </classes>
+    </test>
+
+</suite>
