@@ -38,6 +38,5 @@ public class LoginPage extends CommonToAllPage {
 
         // Wait - Thread sleep
         WaitHelpers.waitJVM(5000);
-
     }
 }
