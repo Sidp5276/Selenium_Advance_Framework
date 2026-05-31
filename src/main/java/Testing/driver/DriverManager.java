@@ -45,7 +45,6 @@ public class DriverManager {
             default:
                 System.out.println("Not browser Supported!!!");
 
-
         }
     }
     public static void down() {
