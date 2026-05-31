@@ -3,7 +3,6 @@ package Testing.pages.pageFactory;
 import Testing.base.CommonToAllPage;
 import Testing.utils.PropertiesReader;
 import Testing.utils.WaitHelpers;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -17,7 +16,6 @@ public class LoginPage extends CommonToAllPage {
         this.driver = driver;
         PageFactory.initElements(driver,this);
     }
-
     // Page Locators
 
     @FindBy(id="login-username")
@@ -33,7 +31,6 @@ public class LoginPage extends CommonToAllPage {
 
     @FindBy(css = "#js-notification-box-msg")
     private WebElement error_message;
-
 
     // Page Actions
     public String loginToVWOInvalidCreds() {
