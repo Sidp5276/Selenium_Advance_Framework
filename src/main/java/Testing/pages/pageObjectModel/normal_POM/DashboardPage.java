@@ -7,11 +7,9 @@ import org.openqa.selenium.WebDriver;
 public class DashboardPage {
 
     WebDriver driver;
-
     public DashboardPage(WebDriver driver){
         this.driver = driver;
     }
-
     private By userNameOnDashboard = By.xpath("//span[@data-qa='lufexuloga']");
 
     public String loggedInUserName(){
