@@ -13,7 +13,6 @@ public class LoginPage {
         this.driver = driver;
     }
 
-
     // Page Class
 
     // Page locator
@@ -23,11 +22,9 @@ public class LoginPage {
     private By error_message = By.id("js-notification-box-msg");
 
 
-    // If you are not using it , don't keep.
     //private By signBySSO = By.xpath("//button[normalize-space()='Sign in using SSO']");
     //private By freeTrial = By.xpath("//button[normalize-space()='Sign in using SSO']");
     //private By rememberMeButton = By.xpath("//button[normalize-space()='Sign in using SSO']");
-
 
     // Page Actions
     public String loginToVWOInvalidCreds(String usr, String pwd) {
