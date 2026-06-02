@@ -20,7 +20,6 @@ public class YamlReader {
         Object value = getValue(path);
         return value != null ? String.valueOf(value) : null;
     }
-
     public boolean getBoolean(String path) {
         Object value = getValue(path);
         if (value instanceof Boolean) {
