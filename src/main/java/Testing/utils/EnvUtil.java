@@ -7,6 +7,7 @@ public class EnvUtil {
             .ignoreIfMissing()
             .load();
 
+
     public static String getUsername() {
         return getRequired("USERNAME");
     }
@@ -14,6 +15,7 @@ public class EnvUtil {
     public static String getPassword() {
         return getRequired("PASSWORD");
     }
+
 
     private static String getRequired(String key) {
         String value = dotenv.get(key);
