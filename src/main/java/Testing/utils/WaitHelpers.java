@@ -77,5 +77,4 @@ public class WaitHelpers {
     public static WebElement visibilityOfElement(WebElement elementLocation) {
         return new WebDriverWait(getDriver(), Duration.ofSeconds(20)).until(ExpectedConditions.visibilityOf(elementLocation));
     }
-
 }
