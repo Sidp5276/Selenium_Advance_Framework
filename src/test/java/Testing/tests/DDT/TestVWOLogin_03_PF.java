@@ -1,7 +1,6 @@
 package Testing.tests.DDT;
 
 import Testing.baseTest.CommonToAllTest;
-
 import Testing.driver.DriverManager;
 import Testing.pages.pageFactory.LoginPage;
 import Testing.utils.PropertiesReader;
@@ -11,7 +10,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TestVWOLogin_03_PF extends CommonToAllTest {
-
 
     private static final Logger logger = LogManager.getLogger(TestVWOLogin_03_PF.class);
 
