@@ -12,7 +12,6 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 public class TestVWOInvalidLogin_Without_POM {
 
-
     @Test
     public void test_vwo_login() {
 
