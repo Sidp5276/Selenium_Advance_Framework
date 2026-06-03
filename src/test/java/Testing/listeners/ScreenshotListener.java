@@ -14,7 +14,6 @@ import java.util.Calendar;
 
 import static Testing.driver.DriverManager.getDriver;
 
-
 public class ScreenshotListener implements ITestListener {
 
     @Override
