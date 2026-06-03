@@ -1,6 +1,5 @@
 package Testing.tests.DDT;
 
-
 import Testing.baseTest.CommonToAllTest;
 import Testing.driver.DriverManager;
 import Testing.pages.pageObjectModel.Improved_POM.LoginPage;
