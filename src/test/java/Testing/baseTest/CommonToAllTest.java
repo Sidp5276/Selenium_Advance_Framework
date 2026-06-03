@@ -1,6 +1,5 @@
 package Testing.baseTest;
 
-
 import Testing.driver.DriverManager;
 import io.qameta.allure.Allure;
 import org.openqa.selenium.OutputType;
@@ -9,7 +8,6 @@ import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-
 import java.io.ByteArrayInputStream;
 
 public class CommonToAllTest {
