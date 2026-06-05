@@ -13,9 +13,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class TestVWOLogin_05_Normal_POM_YAML {
 
-    // D
-    // L
-    // V
     @Test
     public void test_negative_vwo_login() {
 
