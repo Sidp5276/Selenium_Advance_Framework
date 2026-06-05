@@ -12,16 +12,13 @@ import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-
-
 @Listeners(ScreenshotListener.class)
 @Test(retryAnalyzer = RetryAnalyzer.class)
 public class TestVWOLogin_07_TakeScreen_Retry_Prop_Improved_POM extends CommonToAllTest {
 
     private static final Logger logger = LogManager.getLogger(TestVWOLogin_07_TakeScreen_Retry_Prop_Improved_POM.class);
 
-
-    @Description("Verify that invalid creds give error message")
+    @Description("Verify that invalid credits give error message")
     @Test
     public void testFail() {
         DriverManager.getDriver().get("https://app.vwo.com");
@@ -31,7 +28,7 @@ public class TestVWOLogin_07_TakeScreen_Retry_Prop_Improved_POM extends CommonTo
     }
 
 
-    @Description("Verify that invalid creds give error message")
+    @Description("Verify that invalid credits give error message")
     @Test
     public void testPass() {
         DriverManager.getDriver().get("https://app.vwo.com");
