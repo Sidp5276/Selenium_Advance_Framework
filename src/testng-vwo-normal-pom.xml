@@ -9,5 +9,4 @@
             <class name="Testing.tests.DDT.TestVWOLogin_02_Prop_Improved_POM"/>
         </classes>
     </test>
-
 </suite>
