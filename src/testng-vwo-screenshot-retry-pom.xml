@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="VWO Full Automation Suite With Listeners">
-
     <listeners>
         <listener class-name="Testing.listeners.ScreenshotListener"/>
     </listeners>
@@ -19,5 +18,4 @@
             <class name="Testing.tests.DDT.TestVWOLogin_07_TakeScreen_Retry_Prop_Improved_POM"/>
         </classes>
     </test>
-
 </suite>
