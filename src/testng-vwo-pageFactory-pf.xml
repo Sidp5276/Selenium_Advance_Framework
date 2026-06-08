@@ -11,5 +11,4 @@
             <class name="Testing.tests.DDT.TestVWOLogin_03_PF"/>
         </classes>
     </test>
-
 </suite>
